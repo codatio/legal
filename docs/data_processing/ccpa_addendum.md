@@ -1,5 +1,5 @@
 ---
-title: CCPA Addendum
+title: CCPA addendum
 sidebar_position: 1
 ---
 

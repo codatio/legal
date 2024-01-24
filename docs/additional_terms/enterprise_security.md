@@ -1,5 +1,5 @@
 ---
-title: Sub-Processors
+title: Sub-processors
 sidebar_position: 1
 ---
 

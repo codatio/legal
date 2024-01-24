@@ -1,5 +1,5 @@
 ---
-title: Cookie Policy
+title: Cookie policy
 sidebar_position: 2
 ---
 

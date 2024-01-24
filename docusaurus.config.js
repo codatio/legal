@@ -74,11 +74,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'legal',
             position: 'left',
-            label: 'Documents',
+            label: 'Resources',
           },
           {
             href: 'https://codat.io',
-            label: 'Codat.io',
+            label: 'www.codat.io',
             position: 'right',
           },
         ],

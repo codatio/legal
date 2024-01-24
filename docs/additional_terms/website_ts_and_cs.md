@@ -1,5 +1,5 @@
 ---
-title: Website Terms and Conditions
+title: Website terms and conditions
 sidebar_position: 1
 ---
 
