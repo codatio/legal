@@ -1,5 +1,5 @@
 ---
-title: Finicity Addendum
+title: Finicity addendum
 sidebar_position: 6
 ---
 

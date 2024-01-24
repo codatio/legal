@@ -1,5 +1,5 @@
 ---
-title: Enterprise Security
+title: Enterprise security
 sidebar_position: 3
 ---
 

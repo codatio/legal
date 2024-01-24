@@ -1,5 +1,5 @@
 ---
-title: Additional Terms
+title: Additional terms
 sidebar_position: 5
 ---
 

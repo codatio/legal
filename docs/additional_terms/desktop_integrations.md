@@ -1,5 +1,5 @@
 ---
-title: Desktop Integrations
+title: Desktop integrations
 sidebar_position: 1
 ---
 
