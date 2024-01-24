@@ -44,7 +44,7 @@ function Feature({Svg, title, description, target}) {
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
-        <a href={target}>Find Our More</a>
+        <a href={target}>Find Out More</a>
       </div>
     </div>
   );
