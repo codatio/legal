@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Data Processing
+title: Data processing
 ---
 
 # Trust Portal

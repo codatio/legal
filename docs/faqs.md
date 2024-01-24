@@ -1,5 +1,5 @@
 ---
-title: FAQs for Legal and Procurement
+title: FAQs for legal and procurement
 sidebar_position: 1
 ---
 

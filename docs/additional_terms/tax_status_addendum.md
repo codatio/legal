@@ -1,5 +1,5 @@
 ---
-title: Tax Status Addendum
+title: Tax status addendum
 sidebar_position: 7
 ---
 
