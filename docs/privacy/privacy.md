@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+title: Privacy
+sidebar_position: 4
 ---
 
 # Tutorial Intro
