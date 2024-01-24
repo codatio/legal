@@ -1,17 +1,83 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+mcclowes:
+  name: Max Clayton Clowes
+  title: Product Director, Client Experience
+  url: https://github.com/mcclowes
+  image_url: https://github.com/mcclowes.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+dcoplowe:
+  name: David Coplowe
+  title: Product Owner, Client Experience
+  url: https://github.com/dcoplowe
+  image_url: https://github.com/dcoplowe.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+pzaichkina:
+  name: Polina Zaichkina
+  title: Technical Writer
+  url: https://github.com/pzaichkina
+  image_url: https://github.com/pzaichkina.png
+
+dhoare12:
+  name: David Hoare
+  title: CTO
+  url: https://github.com/dhoare12
+  image_url: https://github.com/dhoare12.png
+
+jasond-s:
+  name: Jason Dryhurst-Smith
+  title: Head of Engineering
+  url: https://github.com/jasond-s
+  image_url: https://github.com/jasond-s.png
+
+jyorston:
+  name: James Yorston
+  title: Principal Product Manager
+  url: https://github.com/jmyorston
+  image_url: https://github.com/jmyorston.png
+
+GraceCodat:
+  name: Grace Shiach
+  title: Product Manager, Integrations
+  url: https://github.com/graceshiach-codat
+  image_url: https://github.com/graceshiach-codat.png
+
+e-donnelly:
+  name: Eimear Donnelly
+  title: Product Manager, Lending
+  url: https://github.com/e-donnelly
+  image_url: https://github.com/e-donnelly.png
+
+mrenshawcodat:
+  name: Matt Renshaw
+  title: Senior QA Engineer
+  url: https://github.com/mrenshawcodat
+  image_url: https://github.com/mrenshawcodat.png
+
+dharries:
+  name: David Harries
+  title: Product Director
+  url: https://github.com/dharries
+  image_url: https://github.com/dharries.png
+
+JustinWilkinson:
+  name: Justin Wilkinson
+  title: Senior Software Engineer
+  url: https://github.com/JustinWilkinson
+  image_url: https://github.com/JustinWilkinson.png
+
+d-laing:
+  name: Daniel Laing
+  title: Technical writer
+  url: https://github.com/d-laing
+  image_url: https://github.com/d-laing.png
+
+todorlizhev:
+  name: Todor Lizhev
+  title: Software Engineer
+  url: https://github.com/todorlizhev
+  image_url: https://github.com/todorlizhev.png
+
+andy-white-hat:
+  name: Andy Bellinger
+  title: Security
+  url: https://github.com/andy-white-hat
+  image_url: https://github.com/andy-white-hat.png

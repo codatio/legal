@@ -42,6 +42,8 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: "/",
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +65,7 @@ const config = {
       navbar: {
         hideOnScroll: true,
         logo: {
-          alt: 'Codat_legal Logo',
+          alt: 'Codat Legal Logo',
           src: 'img/logo/logo.svg',
           srcDark: 'img/logo/logo_white.svg',
         },
@@ -75,8 +77,8 @@ const config = {
             label: 'Documents',
           },
           {
-            href: 'https://github.com/codatio/legal',
-            label: 'GitHub',
+            href: 'https://codat.io',
+            label: 'Codat.io',
             position: 'right',
           },
         ],
