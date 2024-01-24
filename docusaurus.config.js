@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Codat_legal',
-  tagline: 'Build powerful applications with financial data',
+  tagline: 'Streamline your procurement process',
   favicon: 'img/favicon-96x96.png',
 
   // Set the production url of your site here
