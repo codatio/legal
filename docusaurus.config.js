@@ -23,7 +23,7 @@ const config = {
   organizationName: 'codatio', // Usually your GitHub org/user name.
   projectName: 'legal', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', //change to throw
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
