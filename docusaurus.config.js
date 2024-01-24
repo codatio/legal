@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Codat_legal',
   tagline: 'Build powerful applications with financial data',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-96x96.png',
 
   // Set the production url of your site here
   url: 'https://legal.codat.io',
