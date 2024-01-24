@@ -83,47 +83,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'FAQs',
-                to: './docs/faqs',
-              },
-            ],
-          },
-          {
-            title: 'Resources',
-            items: [
-              {
-                label: 'Website',
-                href: 'https://www.codat.io/',
-              },
-              {
-                label: 'Docs',
-                href: 'https://docs.codat.io/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/codatdata',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/codat-limited/?originalSubdomain=uk',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/codatio/legal',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} Codat`,
       },
       prism: {
