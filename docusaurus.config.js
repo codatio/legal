@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'FAQs',
-                to: '/faqs',
+                to: './docs/faqs',
               },
             ],
           },
