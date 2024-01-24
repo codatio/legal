@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2f1ba6;
@@ -15,6 +17,30 @@
   --ifm-color-primary-lightest: #3d23d8;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --color-codat-primary: #482deb;
+  --color-link-primary: #482deb;
+
+  --ifm-color-link: var(--color-codat-primary);
+
+  --ifm-font-family-base: "Poppins", -apple-system, BlinkMacSystemFont, Inter,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI emoji";
+  --ifm-font-family-monospace: "SFMono-Regular", "Roboto Mono", Consolas,
+    "Liberation Mono", Menlo, Courier, monospace;
+  --ifm-font-color-base: var(--color-black);
+
+  --font-weight: 400;
+  --font-weight-bold: 500;
+
+  --ifm-menu-link-sublist-icon: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEwIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik04Ljk5OTg4IDVMNC45OTk4OCAxTDAuOTk5ODc4IDUiIHN0cm9rZT0iIzAzMDYwQiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");
+}
+
+p.hero__subtitle {
+  color: #6941C6;
+}
+
+p.team-member-role {
+  color: #6941C6;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

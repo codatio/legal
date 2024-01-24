@@ -4,38 +4,38 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Frequently Asked Questions',
+    Svg: require('@site/static/img/Speech bubble.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        A single resource written for legal and procurement teams to answer common questions.
       </>
     ),
+    target: 'faqs'
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Master Services Agreement',
+    Svg: require('@site/static/img/Sheet.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Access our MSA, DPA, privacy policy and other legal documents.
       </>
     ),
+    target: 'master_services_agreement'
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Codat Product Descriptions',
+    Svg: require('@site/static/img/List.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Access the detailed descriptions for the Codat products listed in your order form.
       </>
     ),
+    target: 'product_descriptions'
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, target}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -44,6 +44,7 @@ function Feature({Svg, title, description}) {
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
+        <a href={target}>Find Our More</a>
       </div>
     </div>
   );
