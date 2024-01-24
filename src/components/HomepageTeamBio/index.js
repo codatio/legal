@@ -6,47 +6,27 @@ const TeamList = [
   {
     title: 'Calum Redhead',
     Svg: require('@site/static/img/Calum.svg').default,
-    description: (
-      <>
-        Senior Legal Council
-      </>
-    )
+    description: 'Senior Legal Council'
   },
   {
     title: 'Becca Mckenzie',
     Svg: require('@site/static/img/Becca.svg').default,
-    description: (
-      <>
-        Head of Legal
-      </>
-    )
+    description: 'Head of Legal'
   },
   {
     title: 'Hayriye Cinar',
     Svg: require('@site/static/img/Hayriye.svg').default,
-    description: (
-      <>
-        Information Security Manager
-      </>
-    )
+    description: 'Information Security Manager'
   },
   {
     title: 'Josephine Robinson',
     Svg: require('@site/static/img/Josephine.svg').default,
-    description: (
-      <>
-        Senior Information Security Manager
-      </>
-    )
+    description: 'Senior Information Security Manager'
   },
   {
     title: 'Andy Ballinger',
     Svg: require('@site/static/img/Andy.svg').default,
-    description: (
-      <>
-        Senior Application Security Engineer
-      </>
-    )
+    description: 'Senior Application Security Engineer'
   }
 ];
 
@@ -69,8 +49,8 @@ export default function HomepageTeamBio() {
     <section className={styles.teams}>
       <div className="container">
         <div className="row">
-          {TeamList.map((props, idx) => (
-            <Team key={idx} {...props} />
+          {TeamList.map((props, i) => (
+            <Team key={i} {...props} />
           ))}
         </div>
       </div>
