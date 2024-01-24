@@ -1,6 +1,6 @@
 ---
-title: FAQs for Legal and Procurement
-sidebar_position: 1
+title: Product Descriptions
+sidebar_position: 6
 ---
 
 ## What is Codat, and what does it do? 

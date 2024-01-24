@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+title: Additional Terms
+sidebar_position: 5
 ---
 
 # Tutorial Intro
