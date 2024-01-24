@@ -1,10 +1,10 @@
-import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -12,13 +12,17 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Legal</h1>
-        <p>
-          Our website is offered subject to your acceptance of our website terms, software terms and conditions (as applicable) and any other operating rules, policies (including, without limitation, our privacy and cookie policy) and procedures that may be published from time to time on our website (together, our "online terms").
-        </p>
-        <p>
-          Please read our online terms before accessing our site, forum or using our services - by accessing or using any part of our site or service, you agree to be bound by these online terms.
-        </p>
+        <Heading as="h1" className="hero__title">
+          {siteConfig.title}
+        </Heading>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Docusaurus Tutorial - 5min ⏱️
+          </Link>
+        </div>
       </div>
     </header>
   );
