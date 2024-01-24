@@ -38,12 +38,12 @@ p.hero__subtitle {
   color: #6941C6;
 }
 
-h1 {
-font-size: 22px;
-}
-
-h2 {
-  font-size: 18px;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+  text-wrap: balance;
 }
 
 p.team-member-role {
