@@ -2,39 +2,39 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const TeamList = [
-  {
-    title: 'Calum Redhead',
-    Svg: require('@site/static/img/Calum.svg').default,
-    description: 'Senior Legal Council'
-  },
+const teamList = [
   {
     title: 'Becca Mckenzie',
-    Svg: require('@site/static/img/Becca.svg').default,
+    img: '/img/team/Becca.png',
     description: 'Head of Legal'
   },
   {
+    title: 'Calum Redhead',
+    img: '/img/team/Calum.png',
+    description: 'Senior Legal Council'
+  },
+  {
     title: 'Hayriye Cinar',
-    Svg: require('@site/static/img/Hayriye.svg').default,
+    img: '/img/team/Hayriye.png',
     description: 'Information Security Manager'
   },
   {
     title: 'Josephine Robinson',
-    Svg: require('@site/static/img/Josephine.svg').default,
+    img: '/img/team/Josephine.png',
     description: 'Senior Information Security Manager'
   },
   {
     title: 'Andy Ballinger',
-    Svg: require('@site/static/img/Andy.svg').default,
+    img: '/img/team/Andy.png',
     description: 'Senior Application Security Engineer'
   }
 ];
 
-function Team({Svg, title, description}) {
+const Team = ({img, title, description}) => {
   return (
     <div className={clsx('col col--3')}>
       <div className="text--center">
-        <Svg className={styles.teamSvg} role="img" />
+        <img src={img} className={styles.teamSvg}/>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -44,12 +44,12 @@ function Team({Svg, title, description}) {
   );
 }
 
-export default function HomepageTeamBio() {
+const HomepageTeamBio = () => {
   return (
     <section className={styles.teams}>
       <div className="container">
         <div className="row">
-          {TeamList.map((props, i) => (
+          {teamList.map((props, i) => (
             <Team key={i} {...props} />
           ))}
         </div>
@@ -57,3 +57,5 @@ export default function HomepageTeamBio() {
     </section>
   );
 }
+
+export default HomepageTeamBio;
