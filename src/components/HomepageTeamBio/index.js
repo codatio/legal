@@ -32,7 +32,7 @@ const teamList = [
 
 const Team = ({img, title, description}) => {
   return (
-    <div className={clsx('col col--3')}>
+    <div className={clsx('col col--2')}>
       <div className="text--center">
         <img src={img} className={styles.teamSvg}/>
       </div>
