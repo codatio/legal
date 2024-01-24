@@ -1,5 +1,5 @@
 ---
-title: Enhanced Support
+title: Enhanced support
 sidebar_position: 4
 ---
 

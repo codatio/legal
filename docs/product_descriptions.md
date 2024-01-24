@@ -1,5 +1,5 @@
 ---
-title: Product Descriptions
+title: Product descriptions
 sidebar_position: 6
 ---
 

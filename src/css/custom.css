@@ -45,7 +45,7 @@ p.team-member-role {
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #a1c0e8;
+  --ifm-color-primary: #482deb;
   --ifm-color-primary-dark: #81abe0;
   --ifm-color-primary-darker: #72a0dc;
   --ifm-color-primary-darkest: #4281d1;
@@ -54,4 +54,9 @@ p.team-member-role {
   --ifm-color-primary-lightest: #ffffff;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.menu__link {
+  justify-content: space-between;
 }
