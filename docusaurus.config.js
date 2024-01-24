@@ -9,8 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Codat_legal',
-  tagline: 'Build powerful applications with financial data',
-  favicon: 'img/favicon.ico',
+  tagline: 'Streamline your procurement process',
+  favicon: 'img/favicon-96x96.png',
 
   // Set the production url of your site here
   url: 'https://legal.codat.io',
@@ -42,6 +42,8 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: "/",
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +65,7 @@ const config = {
       navbar: {
         hideOnScroll: true,
         logo: {
-          alt: 'Codat_legal Logo',
+          alt: 'Codat Legal Logo',
           src: 'img/logo/logo.svg',
           srcDark: 'img/logo/logo_white.svg',
         },
@@ -72,11 +74,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'legal',
             position: 'left',
-            label: 'Documents',
+            label: 'Resources',
           },
           {
-            href: 'https://github.com/codatio/legal',
-            label: 'GitHub',
+            href: 'https://codat.io',
+            label: 'www.codat.io',
             position: 'right',
           },
         ],
