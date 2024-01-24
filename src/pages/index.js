@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="faqs">
-            FAQs
+            Codat Legal Docs 📜
           </Link>
         </div>
       </div>
@@ -31,8 +31,9 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
+    // title={`Hello from ${siteConfig.title}`}
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Codat_legal | Build powerful applications with financial data`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
