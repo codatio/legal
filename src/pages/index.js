@@ -18,7 +18,7 @@ function HomepageHeader() {
           {siteConfig.tagline}
         </Heading>
         <p>
-          Onboarding a new vendor should be easy. At Codat, we’re committed to helping legal and procurement teams by helping streamline your onboarding process, providing clear, concise information, and offering dedicated support every step of the way. Simplifying your journey is our priority.
+          Onboarding a new vendor should be easy. At Codat, we’re committed to helping legal and procurement teams by streamlining your onboarding process, providing clear, concise information, and offering dedicated support every step of the way. Simplifying your journey is our priority.
         </p>
         <div className={styles.buttons}>
           <Link
