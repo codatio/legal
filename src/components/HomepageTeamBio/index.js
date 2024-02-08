@@ -11,7 +11,7 @@ const teamList = [
   {
     title: 'Calum Redhead',
     img: '/img/team/Calum.png',
-    description: 'Senior Legal Council'
+    description: 'Senior Legal Counsel'
   },
   {
     title: 'Hayriye Cinar',
