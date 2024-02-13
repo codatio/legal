@@ -2,6 +2,8 @@
 title: Frequently asked questions for legal and procurement
 sidebar_label: Frequently asked questions
 sidebar_position: 1
+pagination_next: null
+pagination_prev: null
 ---
 
 :::info Disclaimer

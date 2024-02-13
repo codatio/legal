@@ -1,6 +1,8 @@
 ---
 title: Start-Up Plan 1.0
 sidebar_position: 3
+pagination_next: null
+pagination_prev: null
 ---
 
 ## Standard (Version 1.1) (Legacy Start-Up Plan only)
