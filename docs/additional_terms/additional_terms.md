@@ -1,6 +1,7 @@
 ---
 title: Additional terms
 sidebar_position: 5
+draft: true
 ---
 
 # Tutorial Intro
