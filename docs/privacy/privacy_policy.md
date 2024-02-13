@@ -1,6 +1,7 @@
 ---
 title: Privacy policy
 sidebar_position: 1
+draft: true
 ---
 
 # Tutorial Intro

@@ -1,6 +1,8 @@
 ---
-title: Previous Versions
+title: Previous versions
 sidebar_position: 3
+pagination_next: null
+pagination_prev: null
 ---
 
-# Standard (Version 1.1)
+Choose the relevant version in the navigation bar to view that MSA.

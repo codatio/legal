@@ -3,6 +3,8 @@ title: Standard Master Services Agreement
 description: Version 2.0, September 2022
 sidebar_label: Standard MSA
 sidebar_position: 1
+pagination_next: null
+pagination_prev: null
 ---
 
 This Codat Master Services Agreement (“**Agreement**”) is made between the Codat entity listed at clause 12.8 below (“**Codat**”) and the Client identified on the Order Form (“Client”), together referred to as the “parties” and each individually as a “party.” Specific services terms, product details and any applicable license and/or subscription terms will be set forth in the applicable Schedule(s), Order Form(s) and SOW(s), each of which become binding on the Parties and incorporated into this Agreement upon execution of an Order Form and/or SOW. Each Order Form and/or SOW is governed by and incorporates the following documents in effect as of the date of last update of such documents, collectively referred to as the “Agreement” that consists of:
