@@ -1,6 +1,6 @@
 ---
-title: Previous Versions
+title: Previous versions
 sidebar_position: 3
 ---
 
-# Standard (Version 1.1)
+Choose the relevant version in the navigation bar to view that MSA.
