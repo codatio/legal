@@ -2,7 +2,7 @@
 title: Standard Master Services Agreement
 description: Version 2.0, September 2022
 sidebar_label: Standard MSA
-sidebar_position: 1
+sidebar_position: 4
 pagination_next: null
 pagination_prev: null
 ---
