@@ -1,11 +1,10 @@
 ---
-title: Schedule 3: Support
-description: Schedule 3 to the MSA
-sidebar_label: Schedule 3: Support
+title: "Schedule 3: Support"
+description: "Schedule 3 to the MSA"
+sidebar_label: "Schedule 3: Support"
 sidebar_position: 4
 pagination_next: null
 pagination_prev: null
-draft: true
 ---
 
 ## 1. Definitions
