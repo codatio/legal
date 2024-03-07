@@ -14,7 +14,7 @@ This Codat Master Services Agreement (“Agreement”) is made between the Codat
 
 In the event of a conflict, the order of precedence is as set out above in descending order of control.
 
-Agreement Version: v3.0 dated March 2024. 
+Agreement Version: v3.0 dated 8 March 2024. 
 
 Each party agrees that the following terms and conditions govern each Order Form and/or SOW that references this Agreement:
 
