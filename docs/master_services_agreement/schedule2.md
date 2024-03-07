@@ -1,11 +1,11 @@
 ---
-title: Schedule 2: Data Processing Addendum
-description: Schedule 2 to the MSA
-sidebar_label: Schedule 2: DPA
+title: "Schedule 2: Data Processing Addendum"
+description: "Schedule 2 to the MSA"
+sidebar_label: "Schedule 2: DPA"
 sidebar_position: 3
 pagination_next: null
 pagination_prev: null
-draft: true
+
 ---
 ### 1. Definitions
 
