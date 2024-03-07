@@ -1,7 +1,7 @@
 ---
 title: Enterprise Master Services Agreement
 description: Version 2.0, September 2022
-sidebar_label: Enterprise MSA
+sidebar_label: Enterprise v2.0
 sidebar_position: 1
 pagination_next: null
 pagination_prev: null
