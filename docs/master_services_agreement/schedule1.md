@@ -1,11 +1,10 @@
 ---
-title: Schedule 1: Service Levels
-description: Schedule 1 of the MSA
-sidebar_label: Schedule 1: Service Levels
+title: "Schedule 1: Service Levels"
+description: "Schedule 1 of the MSA"
+sidebar_label: "Schedule 1: Service Levels"
 sidebar_position: 2
 pagination_next: null
 pagination_prev: null
-draft: true
 ---
 ### 1. Definitions
 
