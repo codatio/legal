@@ -5,7 +5,6 @@ sidebar_label: Schedule 3: Support
 sidebar_position: 4
 pagination_next: null
 pagination_prev: null
-draft: true
 ---
 
 ## 1. Definitions
