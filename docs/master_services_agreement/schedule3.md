@@ -35,8 +35,11 @@ The following definitions will apply in this Schedule and the Agreement:
 For all Severity 1 and 2 issues, this should feature in the subject of the Support Ticket email . Codat will provide an initial response in the following timeframes:
 
 Severity 1: within 12 Support Hours 
+
 Severity 2: within 2 Business Days 
+
 Severity 3: within 2 Business Days
+
 Severity 4: within 5 Business Days 
 
 For the purpose of the Standard Support Tier, “Support Hours” means: 9.00 am (London, UK time) to 5.00 pm (Denver, CO time) on a Business Day.
@@ -49,8 +52,11 @@ This paragraph shall not apply in cases where Codat can reasonably evidence that
 For all Severity 1 and 2 issues, this should feature in the subject of the Support Ticket email . Codat will provide an initial response in the following timeframes:
 
 Severity 1: within 4 Support Hours 
+
 Severity 2: within 8 Support Hours 
+
 Severity 3: within 8 Support Hours 
+
 Severity 4: within 5 Business Days 
 
 For the purpose of the Standard Support Tier, “Support Hours” means: 9.00 am (London, UK time) to 5.00 pm (Denver, CO time) on a Business Day.
@@ -64,8 +70,11 @@ This paragraph shall not apply in cases where Codat can reasonably evidence that
 For all Severity 1 and 2 issues, this should feature in the subject of the Support Ticket email.  Codat will provide an initial response in the following timeframes:
 
 Severity 1: within 1 Support Hour 
+
 Severity 2: within 4 Support Hours 
+
 Severity 3: within 4 Support Hours 
+
 Severity 4: within 8 Support Hours
 
 For the purpose of the Advanced Support Tier, “Support Hours” means: 24 hours on a Business Day.
@@ -77,6 +86,7 @@ This paragraph shall not apply in cases where Codat can reasonably evidence that
 Codat will provide a resolution to the Support Ticket within the following timeframes:
 
 Severity 1: within 48 Support Hours 
+
 Severity 2, 3, and 4: Support will provide an estimate for time to resolution only
 
 This paragraph shall not apply in cases where Codat can reasonably evidence that the issue was caused by an External Third Party or by a Client Default.
@@ -92,8 +102,11 @@ On request, Codat will provide Client with an RCA for Severity 1 and 2 issues on
 For all Severity 1 and 2 issues, this should feature in the subject of the Support Ticket email . Codat will provide an initial response in the following timeframes:
 
 Severity 1: within 1 Support Hour 
+
 Severity 2: within 4 Support Hours 
+
 Severity 3: within 4 Support Hours 
+
 Severity 4: within 8 Support Hours
 
 For the purpose of the Premium Support Tier, “Support Hours” means: 24 hours a day, 7 days a week.
@@ -105,6 +118,7 @@ This paragraph shall not apply in cases where Codat can reasonably evidence that
 Codat will provide a resolution to the Support Ticket within the following time frame:
 
 Severity 1: within 48 Support Hours 
+
 Severity 2, 3, and 4: Support will provide an estimate for time to resolution only
 
 This paragraph shall not apply in cases where Codat can reasonably evidence that the issue was caused by an External Third Party or by a Client Default.
@@ -118,6 +132,7 @@ On request, Codat will provide Client with an RCA for Severity 1 and 2 issues on
 Codat Support will provide updates on the status of Support Tickets at the following frequency:
 
 Severity 1: intervals of 1 Support Hour 
+
 Severity 2, 3, and 4: a minimum of weekly
 
 **2.4.5	Error Monitoring**
