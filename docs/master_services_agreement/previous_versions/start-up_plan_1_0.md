@@ -1,5 +1,5 @@
 ---
-title: Start-Up Plan 1.0
+title: v1 (Start Up Plan)
 sidebar_position: 5
 pagination_next: null
 pagination_prev: null
