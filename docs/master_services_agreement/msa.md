@@ -246,11 +246,11 @@ Each party acknowledges and agrees that irreparable injury to the other party ma
 
 ## 9. WARRANTIES AND DISCLAIMERS
 
-### 9.1 
+### 9.1 Exclusion of Warranties
 
 THE CODAT SERVICES, CODAT PRODUCTS AND COMPANY DATA ARE PROVIDED BY CODAT TO CLIENT ON AN “AS IS”, “AS AVAILABLE” BASIS AND CODAT DOES NOT GIVE OR MAKE ANY WARRANTY OR REPRESENTATION OF ANY KIND, WHETHER EXPRESS, IMPLIED OR STATUTORY WITH RESPECT TO THE CODAT SERVICES, THE CODAT PRODUCTS OR THE COMPANY DATA, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT OR CORRECTNESS.  CODAT DOES NOT WARRANT THAT CLIENT’S ACCESS TO THE CODAT PRODUCTS WILL BE UNINTERRUPTED OR ERROR FREE.  CODAT IS NOT RESPONSIBLE FOR ANY FAILURE TO ACCESS THE CODAT PRODUCTS OR THE COMPANY DATA THROUGH THE CODAT PRODUCTS THAT IS CAUSED BY CODAT, CLIENT, A COMPANY, THE INTERNET OR ANY THIRD PARTY OR ANY THIRD PARTY SOFTWARE, TOOL OR APPLICATION.
 
-### 9.2 
+### 9.2 Disclaimer
 
 Codat does not vet, endorse or recommend any Companies or the Client’s Products or make any warranties or representations in respect of any Company or the Client’s Products.
 
@@ -270,31 +270,31 @@ If any item forming part of the Codat Products becomes, or in Codat's reasonable
 
 ## 11. LIMITATION OF LIABILITY
 
-### 11.1
+### 11.1 Exceptions to Liability Limitations
 
 Nothing in this Agreement shall limit or exclude either party’s liability for (a) death or personal injury caused by its negligence, or the negligence of its employees, agents or subcontractors; (b) fraud or fraudulent misrepresentation; or (c) any other liability which cannot be limited or excluded by applicable law.
 
-### 11.2
+### 11.2 Exclusion of Certain Types of Liability
 
 Subject to clause 11.1, neither party shall be liable to the other party, whether in contract, tort (including negligence), for breach of statutory duty, or otherwise, arising out of or in connection with this Agreement for loss of profits; loss of sales or business; loss of agreements or contracts; loss of anticipated savings; loss of use or corruption of software, data or information; loss or damage to goodwill or reputation; and any indirect or consequential loss.
 
-### 11.3
+### 11.3 Overall Liability Cap
 
 Subject to clause 11.1, Codat’s total liability to the Client, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, arising out of or in connection with the Agreement shall be limited as follows: a) if Codat Limited is the Codat contracting party, the greater of £50,000 or the total Platform Fees paid under this Agreement in the 12 months preceding the date of such a breach; and b) if Codat Inc is the Codat contracting party, the greater of USD50,000 or the total Platform Fees paid under this Agreement in the 12 months preceding the date of such a breach.
 
-### 11.4 
+### 11.4 No Responsibility for Third Party Delays or Failures
 
 Codat cannot be held responsible for any delays that result from the failure of any Company to deliver or provide access to Company Data or the failure of the Client to access, use or interpret any data on the Codat Products. The Client is responsible for adequate protection and back up of data and/or equipment and for undertaking reasonable and appropriate precautions to scan for computer viruses, or other destructive properties. Codat makes no representations or warranties regarding the accuracy, functionality or performance of any third party software that may be used by the Client or any Company that the Client transacts with in connection with the Services.
 
-### 11.5 
+### 11.5 No Liability for Company Data Accuracy or Use
 
 Codat has no liability or responsibility of any kind for the accuracy or content of any of the Company Data and/or Personal Data or for any loss or damage suffered by the Client resulting from the Client’s use or disclosure of Company Data. Client assumes sole responsibility for results obtained from the use of the Codat Products, and for conclusions drawn from such use.
 
-### 11.6 
+### 11.6 No Third Party Liability
 
 Codat has no relationship with or obligation to, and accepts no liability arising out of the Codat Products and the Codat Services in relation to, to any party other than Client. The Client acknowledges and agrees that it is solely responsible for its use of the Codat Products and the Company Data.
 
-### 11.7 
+### 11.7 Exclusion of Implied Terms
 
 Where the governing law of this Agreement as set out in clause 12.8 is England, the terms implied by sections 3 to 5 of the Supply of Goods and Services Act 1982 are, to the fullest extent permitted by law, excluded from the Agreement.
 
@@ -341,7 +341,7 @@ The Codat entity entering into this Agreement, the address to which Client shoul
 
 A notice or other communication shall be deemed to have been received: if delivered personally, when left at the address referred to in clause 12.8; if sent by pre-paid first class post or other next working day delivery service, at 9.00 am on the second Business Day after posting; if delivered by commercial courier, on the date and at the time that the courier's delivery receipt is signed; or, if sent by email to legal@codat.io, one Business Day after transmission.
 
-### 12.10 
+### 12.10 Clients in USA
 
 The following clauses shall apply to Clients domiciled in the USA:
 
