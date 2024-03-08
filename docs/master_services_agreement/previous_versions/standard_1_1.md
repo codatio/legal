@@ -1,5 +1,5 @@
 ---
-title: Standard 1.1
+title: v1.1 (Standard)
 sidebar_position: 3
 pagination_next: null
 pagination_prev: null
