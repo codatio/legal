@@ -9,14 +9,9 @@ const teamList = [
     description: 'Head of Legal'
   },
   {
-    title: 'Calum Redhead',
-    img: '/img/team/Calum.png',
+    title: 'Jess Tang',
+    img: '/img/team/Jess.png',
     description: 'Senior Legal Counsel'
-  },
-  {
-    title: 'Hayriye Cinar',
-    img: '/img/team/Hayriye.png',
-    description: 'Information Security Manager'
   },
   {
     title: 'Josephine Robinson',
