@@ -2,7 +2,7 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-![Website Deploy](https://deploy-badge.vercel.app/?url=http://https://vercel.com/codat/legal/&name=website)
+![Website Deploy](https://deploy-badge.vercel.app/?url=https://vercel.com/codat/legal&name=website)
 
 ### Installation
 
