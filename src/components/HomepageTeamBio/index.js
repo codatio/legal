@@ -1,35 +1,40 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 const teamList = [
   {
-    title: 'Becca Mckenzie',
-    img: '/img/team/Becca.png',
-    description: 'Head of Legal'
+    title: "Becca Mckenzie",
+    img: "/img/team/Becca.png",
+    description: "Chief Legal and Business Officer",
   },
   {
-    title: 'Jess Tang',
-    img: '/img/team/Jess.png',
-    description: 'Senior Legal Counsel'
+    title: "Jess Tang",
+    img: "/img/team/Jess.png",
+    description: "Senior Legal Counsel",
   },
   {
-    title: 'Josephine Robinson',
-    img: '/img/team/Josephine.png',
-    description: 'Senior Information Security Manager'
+    title: "Josephine Robinson",
+    img: "/img/team/Josephine.png",
+    description: "Information Security Director",
   },
   {
-    title: 'Andy Ballinger',
-    img: '/img/team/Andy.png',
-    description: 'Senior Application Security Engineer'
-  }
+    title: "Hazem Elhusseiny",
+    img: "/img/team/Hazem.png",
+    description: "Senior Security Engineer",
+  },
+  {
+    title: "Anushree Gopal",
+    img: "/img/team/Anushree.png",
+    description: "Information Security Analyst",
+  },
 ];
 
-const Team = ({img, title, description}) => {
+const Team = ({ img, title, description }) => {
   return (
-    <div className={clsx('col col--2')}>
+    <div className={clsx("col col--2")}>
       <div className="text--center">
-        <img src={img} className={styles.teamSvg}/>
+        <img src={img} className={styles.teamSvg} alt={`${title} Headshot`} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -37,7 +42,7 @@ const Team = ({img, title, description}) => {
       </div>
     </div>
   );
-}
+};
 
 const HomepageTeamBio = () => {
   return (
@@ -51,6 +56,6 @@ const HomepageTeamBio = () => {
       </div>
     </section>
   );
-}
+};
 
 export default HomepageTeamBio;

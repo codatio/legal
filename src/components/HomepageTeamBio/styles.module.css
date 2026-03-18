@@ -3,10 +3,10 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+}
 
-  .row {
-    justify-content: center;
-  }
+.teams :global(.row) {
+  justify-content: center;
 }
 
 .teamSvg {
