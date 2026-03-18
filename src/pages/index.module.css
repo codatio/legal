@@ -8,8 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: white;
-  color: black;
+  color: var(--color-bedrock);
 }
 
 @media screen and (max-width: 996px) {

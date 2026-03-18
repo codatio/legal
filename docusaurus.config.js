@@ -4,54 +4,52 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Codat_legal',
-  tagline: 'Streamline your procurement process',
-  favicon: 'img/favicon-96x96.png',
+  title: "Codat_legal",
+  tagline: "Streamline your procurement process",
+  favicon: "img/favicon-96x96.png",
 
   // Set the production url of your site here
-  url: 'https://legal.codat.io',
+  url: "https://legal.codat.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'codatio', // Usually your GitHub org/user name.
-  projectName: 'legal', // Usually your repo name.
+  organizationName: "codatio", // Usually your GitHub org/user name.
+  projectName: "legal", // Usually your repo name.
 
-  onBrokenLinks: 'warn', //change to throw
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "warn", //change to throw
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           routeBasePath: "/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-        },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -60,36 +58,34 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        disableSwitch: true,
+      },
       // Replace with your project's social card
-      image: 'img/meta/social-card.jpg',
+      image: "img/meta/social-card.jpg",
       navbar: {
         hideOnScroll: true,
         logo: {
-          alt: 'Codat Legal Logo',
-          src: 'img/logo/logo.svg',
-          srcDark: 'img/logo/logo_white.svg',
+          alt: "Codat Logo",
+          src: "img/logo/logo.svg",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'legal',
-            position: 'left',
-            label: 'Resources',
+            type: "docSidebar",
+            sidebarId: "legal",
+            position: "left",
+            label: "Resources",
           },
           {
-            href: 'https://codat.io',
-            label: 'www.codat.io',
-            position: 'right',
+            href: "https://codat.io",
+            label: "www.codat.io",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         copyright: `Copyright © ${new Date().getFullYear()} Codat`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
       },
     }),
 };

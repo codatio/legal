@@ -4,71 +4,94 @@
  * work well for content-centric websites.
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;300&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2f1ba6;
-  --ifm-color-primary-dark: #2a1895;
-  --ifm-color-primary-darker: #28178d;
-  --ifm-color-primary-darkest: #211374;
-  --ifm-color-primary-light: #341eb7;
-  --ifm-color-primary-lighter: #361fbf;
-  --ifm-color-primary-lightest: #3d23d8;
+  /* Brand palette */
+  --color-emerald: #21524f;
+  --color-citron: #d1e100;
+  --color-mint: #b2d4c7;
+  --color-gravity: #6482a7;
+  --color-canvas: #ecede5;
+  --color-bedrock: #18103a;
+  --color-echo: #e0e9d1;
+
+  --ifm-color-primary: #18103a;
+  --ifm-color-primary-dark: #141034;
+  --ifm-color-primary-darker: #120e31;
+  --ifm-color-primary-darkest: #0e0b28;
+  --ifm-color-primary-light: #1c1240;
+  --ifm-color-primary-lighter: #1e1343;
+  --ifm-color-primary-lightest: #24184c;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  --color-codat-primary: #482deb;
-  --color-link-primary: #482deb;
+  --color-codat-primary: #18103a;
+  --color-link-primary: #21524f;
 
-  --ifm-color-link: var(--color-codat-primary);
+  --ifm-color-link: var(--color-link-primary);
 
-  --ifm-font-family-base: "Poppins", -apple-system, BlinkMacSystemFont, Inter,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI emoji";
-  --ifm-font-family-monospace: "SFMono-Regular", "Roboto Mono", Consolas,
-    "Liberation Mono", Menlo, Courier, monospace;
-  --ifm-font-color-base: var(--color-black);
+  --ifm-font-family-base:
+    "Lexend", -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI emoji";
+  --ifm-font-family-monospace:
+    "SFMono-Regular", "Roboto Mono", Consolas, "Liberation Mono", Menlo,
+    Courier, monospace;
+  --ifm-font-color-base: var(--color-bedrock);
 
-  --font-weight: 400;
-  --font-weight-bold: 500;
+  --ifm-footer-background-color: var(--color-bedrock);
+  --ifm-navbar-background-color: var(--color-canvas);
+  --ifm-background-color: var(--color-canvas);
 
+  --font-weight: 300;
+  --font-weight-bold: 300;
+}
+
+.hero--primary {
+  --ifm-hero-background-color: var(--color-canvas);
+  --ifm-hero-text-color: var(--color-bedrock);
 }
 
 p.hero__subtitle {
-  color: #6941C6;
+  color: var(--color-emerald);
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-weight: 500;
+  font-weight: 200;
   text-wrap: balance;
 }
 
 p.team-member-role {
-  color: #6941C6;
+  color: var(--color-emerald);
 }
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #482deb;
-  --ifm-color-primary-dark: #81abe0;
-  --ifm-color-primary-darker: #72a0dc;
-  --ifm-color-primary-darkest: #4281d1;
-  --ifm-color-primary-light: #c1d5f0;
-  --ifm-color-primary-lighter: #d0e0f4;
-  --ifm-color-primary-lightest: #ffffff;
-
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
 
 .menu__link {
   justify-content: space-between;
 }
 
-button.clean-btn menu__caret
-{
+button.clean-btn menu__caret {
   font-size: small;
+}
+
+a.button--secondary,
+a.button--secondary:hover {
+  --ifm-button-background-color: var(--color-bedrock);
+  --ifm-button-border-color: var(--color-bedrock);
+  color: var(--color-echo) !important;
+}
+
+.alert--info {
+  --ifm-alert-background-color: var(--color-echo);
+  --ifm-alert-border-color: var(--color-emerald);
+  --ifm-alert-foreground-color: var(--color-bedrock);
+  --ifm-alert-color: var(--color-emerald);
+}
+
+.footer--dark {
+  --ifm-footer-background-color: var(--color-bedrock);
+  --ifm-footer-color: var(--color-echo);
 }
