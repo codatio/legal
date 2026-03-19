@@ -85,7 +85,7 @@ a.button--secondary,
 a.button--secondary:hover {
   --ifm-button-background-color: var(--color-bedrock);
   --ifm-button-border-color: var(--color-bedrock);
-  color: var(--color-mint) !important;
+  color: var(--color-canvas) !important;
 }
 
 section a:not(.button),
