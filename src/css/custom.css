@@ -42,14 +42,14 @@
 
   --ifm-footer-background-color: var(--color-bedrock);
   --ifm-navbar-background-color: var(--color-canvas);
-  --ifm-background-color: var(--color-canvas);
+  --ifm-background-color: #ffffff;
 
   --font-weight: 300;
   --font-weight-bold: 300;
 }
 
 .hero--primary {
-  --ifm-hero-background-color: var(--color-canvas);
+  --ifm-hero-background-color: #ffffff;
   --ifm-hero-text-color: var(--color-bedrock);
 }
 
@@ -63,6 +63,10 @@ h3,
 h4 {
   font-weight: 200;
   text-wrap: balance;
+}
+
+h3 {
+  font-weight: 300;
 }
 
 p.team-member-role {
@@ -81,7 +85,12 @@ a.button--secondary,
 a.button--secondary:hover {
   --ifm-button-background-color: var(--color-bedrock);
   --ifm-button-border-color: var(--color-bedrock);
-  color: var(--color-echo) !important;
+  color: var(--color-mint) !important;
+}
+
+section a:not(.button) {
+  color: var(--color-emerald) !important;
+  text-decoration: underline;
 }
 
 .alert--info {
@@ -89,6 +98,10 @@ a.button--secondary:hover {
   --ifm-alert-border-color: var(--color-emerald);
   --ifm-alert-foreground-color: var(--color-bedrock);
   --ifm-alert-color: var(--color-emerald);
+}
+
+.navbar__logo img {
+  margin-bottom: 2px;
 }
 
 .footer--dark {
