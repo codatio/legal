@@ -88,7 +88,8 @@ a.button--secondary:hover {
   color: var(--color-mint) !important;
 }
 
-section a:not(.button) {
+section a:not(.button),
+article a:not(.button) {
   color: var(--color-emerald) !important;
   text-decoration: underline;
 }
