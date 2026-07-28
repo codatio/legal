@@ -1,0 +1,7 @@
+codat-classic-app:
+  appVersion: 0.0.0
+  metadata:
+    serviceName: legal
+    owningTeam: &team Pepper
+  env:
+    Codat_This_OwningTeam: *team
