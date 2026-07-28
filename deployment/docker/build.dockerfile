@@ -9,6 +9,9 @@ WORKDIR /src
 
 COPY package.json .
 COPY package-lock.json .
+# Credential-less in the repo; the ADO pipeline's npm authenticate step injects
+# feed credentials into it before the bake (same mechanism as admin-ui /
+# link-amex). Local builds need your own authenticated .npmrc.
 COPY .npmrc .
 
 RUN npm ci
