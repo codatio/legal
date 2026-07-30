@@ -1,0 +1,19 @@
+codat-classic-app:
+  components:
+    - name: ui
+      image: codatprodregistry.azurecr.io/codat.legal.ui
+      routing:
+        - hosts: ["legal.codat.io"]
+      containerPort: 80
+      statusPath: "/"
+      horizontalPodAutoscaling:
+        minReplicas: 2
+        maxReplicas: 3
+      podDisruptionBudget:
+        minAvailable: 1
+      resources:
+        requests:
+          memory: 20Mi
+          cpu: 10m
+        limits:
+          memory: 100Mi
