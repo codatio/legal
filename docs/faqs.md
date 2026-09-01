@@ -14,9 +14,9 @@ The following FAQs are for information purposes only and do not form part of you
 
 ## What is Codat and what does it do? 
 
-Codat is a SaaS company that provides specialized API-based products for lending and accounting automation using data from your customers' business software.  
+Codat is an advisory intelligence solution purpose-built for modern commercial banking. Through rich, specialized data, forward-looking insights, and workflows integrated with the AI tools bankers already use, Codat empowers banking teams to deepen their relationships, grow their revenue, and simplify their day-to-day work.
 
-Founded in 2017, Codat is trusted by over 300 clients globally and is backed by leading investors, including Index Ventures, J.P. Morgan, Canapi Ventures, Tiger Global, PayPal Ventures, American Express, Shopify, and Plaid.
+Founded in 2017 and backed by JPMorgan, PayPal, Amex, Plaid, and Shopify, Codat has successfully powered over 350,000 connections to business customers’ financial systems — and is trusted by industry leaders to turn scattered information into actionable, strategic advantages in real time, every time.
 
 ## Definitions in Codat’s Master Services Agreement (MSA)
 
